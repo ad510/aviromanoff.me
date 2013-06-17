@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #fff;
+}
+
 sup {
   font-size: 25px;
 }
@@ -96,24 +100,27 @@ sup {
   font-family: 'Sofia', cursive;
 }
 
-#footer {
+.bottom {
   position: absolute;
-  bottom: 3%;
-  right: 2%;
   font-size: 20px;
+  bottom: 3%;
 }
 
 #footnotes {
-  position: absolute;
-  bottom: 3%;
   left: 2%;
-  font-size: 20px;
 }
 
-#footnotes > sup {
+.bottom > sup {
   font-size: 15px;
 }
 
+#footer {
+  right: 2%;
+}
+
+#footer > a:hover {
+  text-decoration: underline
+}
 @media only screen and (max-width: 480px) {
   #background {
     background-size: 95%;
@@ -133,6 +140,15 @@ sup {
   #hero {
     margin-top: 0%;
     font-size: 20px;
+  }
+  .bottom {
+    font-size: 12px;
+  }
+  sup {
+    font-size: 15px;
+  }
+  .bottom > sup {
+    font-size: 11px;
   }
 }
 
