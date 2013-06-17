@@ -16,6 +16,12 @@ body {
   background-image: url("pattern.png");
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3) { 
+  body {
+    background-image: url("pattern_2X.png");
+  }
+}
+
 a {
   text-decoration: none;
   color: #fff;
