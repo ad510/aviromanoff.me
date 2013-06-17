@@ -1,6 +1,113 @@
 extends base
 block title
   | Code
+block styles
+  link(href='http://fonts.googleapis.com/css?family=Asap|Open+Sans:400,600,700', rel='stylesheet', type='text/css')
+  link(rel="stylesheet", href="http://yui.yahooapis.com/pure/0.2.0/grids-min.css")
+  link(rel="stylesheet", href="code.css")
 block content
+  a#back(href="index.html") &#8619;
   #hero
-    h1 Code.
+    h1 Code
+  #content
+    #blerb
+      p
+        | I have been coding since middle school and tinkering since the womb.
+        br
+        | I build things that are fast, beautful, and 
+        span(style="text-decoration: underline") intuitive
+        | .
+    .project
+      h2 Keeba Homework Website 
+        span (Fall 2011 - Present)
+        a(href="http://keeba.jbha.org", target="_blank")
+          img(src="link.svg")
+      p
+        strong Why: 
+        | My highschool’s homework website left much to be desired in terms of usability, functionality, and intuitiveness. To address these problems without requiring teacher re-training or other involvement from the school’s administration, I reverse-engineered the existing homework website and provided an alternative interface to access it in my sophomore year of high school. It grew quickly from a simple set of parsing algorithms and an HTTP proxy API for my personal use to a state-of-the-art personal productivity webapp with wide adoption by my school community. Keeba was officially announced in the beginning of the 2012 academic year, has since been officially adopted by the school administration. It currently is in regular use by many members of the student body, with nearly 90% registration among the student body.
+      p
+        strong How: 
+        | JavaScript (both client and server), CoffeeScript, Node.js, Backbone.js, MongoDB, Map/Reduce, Regular Expressions, Jade, HTML, CSS, WebSockets, various low-level *NIX APIs for IPC and deployment system
+
+    .project
+      h2 HWorks Initiative 
+        span (Winter 2013 - Present)
+        a(href="http://hworks.org", target="_blank")
+          img(src="link.svg")
+      p
+        strong Why: 
+        | Based on my experiences in conceiving and developing Keeba, I began investigating the need for modern, intuitive, homework management software on a global scale. I extracted the core values with which I built Keeba, and articulated them as a broader vision for what next-generation digital homework management systems should strive for. I created an online organization, HWorks, as a collaborative hub for exploring these ideas and collecting the individual efforts made by students around the country and the world to address similar issues in their own schools. HWorks was launched 2013.
+      p
+        strong How: 
+        | Responsive CSS, Skeleton web grid system, Jade templating language, icons from The Noun Project
+
+    .project
+      h2 Veritas Social Network 
+        span (Summer 2012)
+        a(href="http://veritas-me.com", target="_blank")
+          img(src="link.svg")
+      p
+        strong Why: 
+        | While studying computer science at the Harvard Summer School as a rising junior, I greatly enjoyed meeting and getting to know new students each day. However, after the first week, I realized that this strategy would not scale. Before too long, the summer would be over, and there would be many students with whom I had not connect. Therefore, I created an informal on-line social network exclusively for other Harvard Summer School students. I wrote a program to scrape the Harvard Summer School website and compile and a database of all of the courses offered that summer. Students signed up with their Harvard IDs, and selected the courses in which they were enrolled, and the dorm in which they lived. The website, which I named Veritas after the motto of Harvard, was composed of various chat rooms for these different groups, as well as a general chat for all students. I posted the link to the Facebook group for the 2012 Harvard Summer School session, and just 24 hours later over 100 had signed up.
+      p
+        strong How: 
+        | CSS3 and HTML5, JavaScript, Backbone.js, jQuery, CoffeeScript, Node.js, Bootstrap CSS framework, MongoDB, Heroku, Python, BeautifulSoup HTML parsing library, WebSockets
+
+    .project
+      h2 Switchboard Settings Center 
+        span (Winter 2011 - Summer 2012)
+        a(href="https://launchpad.net/switchboard", target="_blank")
+          img(src="link.svg")
+      p
+        strong Why: 
+        | While studying computer science at the Harvard Summer School as a rising junior, I greatly enjoyed meeting and getting to know new students each day. However, after the first week, I realized that this strategy would not scale. Before too long, the summer would be over, and there would be many students with whom I had not connect. Therefore, I created an informal on-line social network exclusively for other Harvard Summer School students. I wrote a program to scrape the Harvard Summer School website and compile and a database of all of the courses offered that summer. Students signed up with their Harvard IDs, and selected the courses in which they were enrolled, and the dorm in which they lived. The website, which I named Veritas after the motto of Harvard, was composed of various chat rooms for these different groups, as well as a general chat for all students. I posted the link to the Facebook group for the 2012 Harvard Summer School session, and just 24 hours later over 100 had signed up.
+      p As a result of my involvement with elementary and my work on Switchboard, I was invited to and attended the 2011 Ubuntu Developer Summer in Orlando, Florida. I presented the software to a panel of Canonical engineers and it is being considered for adoption by Ubuntu and other free desktop projects.
+      p
+        strong How: 
+        | Vala, C, WAF and CMake packaging frameworks, GTK+, D-Bus, Bazaar, Launchpad
+
+    .project
+      h2 Centropa Interactive Sign-In Map 
+        span (Spring 2011)
+      p
+        strong Why: 
+        | In my freshman year of high school my grade organized and ran an exhibit on pre- World War II Jewish life in Europe, as a part of the international organization Centropa. My part in the exhibit was the creation of a digital sign-in book and projected map that allows the visitors to type in their name and ancestor's country of origin, and have their location marked on a digitally projected map of the world. I collaborated on this project with a classmate. 
+      p
+        strong How: 
+        | Python, WebPy framework, JavaScript/AJAX, Apache and Cherokee Web Servers, JSON, XML, Google Maps API, PyGTK
+
+    .project
+      h2 Lingo Dictionary 
+        span (Spring 2011 - Summer 2013)
+        a(href="https://launchpad.net/lingo", target="_blank")
+          img(src="link.svg")
+      p
+        strong Why: 
+        | Lingo is not a completely separate project from Purple (see below), but rather a completely re- architected rewrite, that will replace and succeed Purple. The purpose of the rewrite was to greatly improve performance (Lingo is written in a language that compiles into binary, unlike Purple which relies of the resource-taxing Python environment), improve modularity, internationalization capabilities, and portability. Additionally, as Wordnik provides no official wrapper or support for the Vala programming language, I needed to design and implement my own wrapper to interface with their API. Like Lingo, the program is licensed under the GNU GPL version 3. It will be included in the upcoming release of elementaryOS, code-named Luna. 
+      p
+        strong How: 
+        | Vala, GTK+, LibSoup, SQLite, Waf packaging framework, Launchpad, Bazaar, Git, D-Bus, JSON-GLib, Wordnik API, JSON 
+
+    .project
+      h2 Purple Dictionary 
+        span (Fall 2010 - Spring 2011)
+        a(href="https://launchpad.net/purple", target="_blank")
+          img(src="link.svg")
+      p
+        strong Why: 
+        | I recognized that Linux lacked an easy to use and functional desktop dictionary. I therefore created this program to provide a graphical front end to Dictionary.com's (and later Wordnik's) web services, enhanced with tools such as bookmarking and automatic flashcard generation. This program is fully open source and is hosted on Ubuntu's code development platform, Launchpad. It is licensed under the GNU GPL version 3, and shipped in the initial release of the elementaryOS operating system, code-named Jupiter.
+      p
+        strong How: 
+        | Python, PyGTK, BeautifulSoup, DOM, XML, SQLite, Quickly framework, Launchpad, Bazaar, Storm ORM, D-Bus, Dictionary.com API, Wordnik API, JSON 
+
+    .project
+      h2 Lingua Vocabulary Index 
+        span (Fall 2010 - Fall 2011)
+      p
+        strong Why: 
+        | As I student of Latin at my high school, my classmates and I (and Latin students around the world) struggle with a lack of modern (technologically speaking), easy-to-use, and fast digital Latin dictionaries. As a requirement of my Latin course, I maintain a list of all of the Latin vocabulary that I learn in class on a Word document. To help my own studies and my classmates', I created a website and API that allows anyone to search my Latin dictionary Word document, which I parsed and stored in a relational database. The website searches using a clean and elegant minimalistic interface with real-time, as-you-type, results. It can search in either Latin or English.
+        p
+          strong How: 
+          | Python, Django, Cherokee Web Server, uWSGI, JSON, jQuery, JavaScript/AJAX, CSS, HTML5, Ubuntu Server, SQLite
+    br
+    br
