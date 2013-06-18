@@ -36,10 +36,20 @@ a:visited {
   bottom: 3%;
 }
 
-#footer {
+.resume {
+  position: absolute;
   right: 2%;
+  bottom: 7%;
+  font-size: 30px;
 }
 
-#footer > a:hover {
-  text-decoration: underline
+.resume:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  position: absolute;
+  right: 2%;
+  bottom: 3%;
+  font-size: 18px;
 }
