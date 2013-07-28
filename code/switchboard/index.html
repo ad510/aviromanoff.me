@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Code, prose, and poetry from Avi Romanoff">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style/layout.css">
+    <title>Switchboard</title>
+    <link href="http://fonts.googleapis.com/css?family=Asap|Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/style/code.css">
+    <link rel="stylesheet" href="/style/project.css">
+  </head>
+  <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-41797599-1', 'aviromanoff.me');
+      ga('send', 'pageview');
+    </script><a id="back" href="/code.html"></a>
+    <div id="hero">
+      <div class="major">Switchboard</div>
+      <div class="minor">Cohesive system settings</div>
+      <div class="micro">Winter 2011 - Summer 2012</div>
+    </div>
+    <div class="external-icons"><a href="http://elementaryos.org" target="_blank"><img src="/earth-white.png"></a><a href="https://launchpad.net/switchboard" target="_blank"><img src="/launchpad-white.png"></a>
+    </div>
+    <div id="content"><div class="card">
+  <div class="title">What</div>
+  <ul>
+    <li>Identified need for coherent and cohesive app and API for exposing system configurations (e.g. device and appearance settings) on Ubuntu-based systems</li>
+    <li>Created API to enable developers to build modular interfaces for easy configuration of their software and hardware peripherals</li>
+    <li>Received full sponsorship (all expenses paid) to attend the 2011 Ubuntu Developer Summit in Orlando, Florida to present my work on Switchboard</li>
+    <li>Switchboard has been translated into over 50 languages and currently ships with elementaryOS Luna (Ubuntu-based), which has been downloaded 275,000+ times since Spring 2012</li>
+  </ul>
+</div>
+
+<div class="card">
+  <div class="title">Why</div>
+  <p>I have been using Linux as my desktop operating system for two years, after having migrated from Mac OS X. When I made the transition, I was frustrated by the lack of coherence and cohesion, both technically and graphically, of the system settings in Linux desktop environments. Each settings panel is typically developed individually, by different projects with different goals and user interfaces, making it cumbersome and confusing for users to change and view settings on their computers. I created a desktop-agnostic, modular, organized and friendly system to solve this ubiquitous modern Linux problem. The system is called Switchboard, and consists of a user-facing graphical interface that organizes the configuration panels installed into categories, and an API with a Vala/C/GTK+ library that enables developers to create settings panels for Switchboard. Switchboard will be included in the next version of elementaryOS (Luna), and is licensed under the GNU LGPL version 2.</p>
+  <p>As a result of my involvement with elementary and my work on Switchboard, I was invited to and attended the 2011 Ubuntu Developer Summer in Orlando, Florida. I presented the software to a panel of Canonical engineers and it is being considered for adoption by Ubuntu and other free desktop projects.</p>
+</div>
+
+<div class="card">
+  <div class="title">How</div>
+  <p>Switchboard&#39;s API provides an elegant interface API which abstracts X11&#39;s XEMBED window embedding protocol. This enables developers writing in many languages and toolkits to embed their interface directly into the Switchboard UI. Additionally, the Switchboard API allows developers to interact with the Switchboard app itself and communicate state information such as activity progress.</p>
+</div>
+
+<p><div class="screenshots">
+  <a href="switchboard-screenshot-1.png">
+    <img src="switchboard-screenshot-1.png" class="screenshot-undersized">
+  </a>
+  <a href="switchboard-screenshot-1.png">
+    <img src="switchboard-screenshot-2.png" class="screenshot">
+</a></p>
+<div></div>
+  </body>
+</html>
