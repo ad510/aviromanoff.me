@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Code, prose, and poetry from Avi Romanoff">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style/layout.css">
+    <title>Keeba</title>
+    <link href="http://fonts.googleapis.com/css?family=Asap|Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/style/code.css">
+    <link rel="stylesheet" href="/style/project.css">
+  </head>
+  <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-41797599-1', 'aviromanoff.me');
+      ga('send', 'pageview');
+    </script><a id="back" href="/code.html"></a>
+    <div id="hero">
+      <div class="major">Keeba</div>
+      <div class="minor">Homework, simplified</div>
+      <div class="micro">Fall 2011 - Present</div>
+    </div>
+    <div class="external-icons"><a href="http://keeba.jbha.org" target="_blank"><img src="/earth-white.png"></a><a href="http://github.com/aroman/keeba" target="_blank"><img src="/github-white.png"></a>
+    </div>
+    <div id="content"><div class="card">
+  <div class="title">What</div>
+  <ul>
+    <li>Reverse-engineered school’s existing homework website and created scraping API</li>
+    <li>Designed and coded complete reimagination of web UI focusing on responsive design and realtime interaction, dramatically increasing student productivity</li>
+    <li>Architected and built highly concurrent backend to interface with existing website and expose internal APIs to web clients on desktop and mobile</li>
+    <li>Since launching in June 2012, 90% of the student body is using Keeba to track 55,000+ assignments across 2,000+ courses.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <div class="title">Why</div>
+  <p>My high school’s homework website left much to be desired in terms of usability, functionality, and intuitiveness. To address these problems without requiring teacher re-training or other involvement from the school’s administration, as a sophomore in high school, I reverse-engineered the existing homework website and provided an alternative interface to access. It grew quickly from a simple set of parsing algorithms and an HTTP proxy API for my personal use to a state-of-the-art personal productivity web app with wide adoption by my school community.</p>
+</div>
+
+<div class="card">
+  <div class="title">How</div>
+  <p>Keeba is a client-heavy single-page style web app which makes heavy use of JavaScript and CoffeeScript. The client embraces the modern JavaScript MVC pattern (through Backbone) and the server is a highly modularized set of internal and external APIs. Keeba uses makes heavy use of UNIX IPC and process forking to maintain a high degree of concurrency and avoid clogging the eventloop.</p>
+</div>
+
+<div class="screenshots">
+  <a href="keeba-screenshot-1.png">
+    <img src="keeba-screenshot-1.png" class="screenshot">
+  </a>
+  <a href="keeba-screenshot-2.png">
+    <img src="keeba-screenshot-2.png" class="screenshot">
+  </a>
+</div></div>
+  </body>
+</html>
