@@ -1,0 +1,93 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+strong {
+  font-weight: 600;
+}
+#hero {
+  color: #f05250;
+  margin-top: -25px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+#content {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+#blerb {
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: 300;
+}
+.card {
+  border: 2px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 0 25px #222;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  margin-top: 25px;
+  background: #eee;
+  color: #222;
+  font-size: 16px;
+}
+.card > * {
+  display: block;
+}
+.card a {
+  color: #222;
+}
+.card:hover {
+  box-shadow: 0 0 0 3px #f05250;
+}
+.card .external-icon {
+  height: 25px;
+  margin-left: 10px;
+  margin-top: -24px;
+  float: right;
+}
+.card .external-icon:hover {
+  -webkit-filter: invert(40%);
+  -moz-filter: invert(40%);
+  -ms-filter: invert(40%);
+  filter: invert(40%);
+}
+.card .epoch,
+.card .subtitle {
+  color: #444;
+}
+.card .epoch {
+  float: right;
+  margin-top: -30px;
+}
+.card .title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card .subtitle {
+  display: block;
+  margin-top: -2px;
+}
+.card .tagline {
+  display: block;
+  margin-top: 20px;
+  margin-right: 75px;
+}
+.quote {
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+.quote .body {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.quote .source {
+  font-size: 18px;
+}
