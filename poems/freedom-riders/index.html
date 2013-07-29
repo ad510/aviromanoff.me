@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Code, prose, and poetry from Avi Romanoff">
+    <meta name="viewport" content="initial-scale = 0.6">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style/layout.css">
     <title>Freedom Riders</title>
@@ -93,5 +94,10 @@ Because real progress is a verb<br>
 And you can’t describe it in 140 characters or less</p></p>
       </div>
     </div>
+    <script>
+      var instruction = "Click"
+      if ('ontouchstart' in window) instruction = "Tap"
+      document.getElementById('instructions').innerHTML = instruction + " on a project to learn more"
+    </script>
   </body>
 </html>

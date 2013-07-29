@@ -28,8 +28,6 @@ sup {
   position: absolute;
   margin: 0 auto;
   top: 45%;
-  font-weight: 700;
-  font-family: 'Life Savers', cursive;
   padding: 5px;
 }
 .outlet:hover > sup {
@@ -54,19 +52,23 @@ sup {
   content: "\2014";
 }
 #code {
+  font-weight: 600;
+  font-family: Courier, monospace;
   color: #74C04A;
   left: 5%;
-  font-family: Courier, monospace;
 }
 #prose {
+  font-weight: 700;
+  font-family: 'Life Savers', cursive;
   color: #F7922D;
   left: 50%;
 }
 #poetry {
+  font-weight: 400;
+  font-family: 'Sofia', cursive;
   color: #F05250;
   right: 5%;
   margin-top: -10px;
-  font-family: 'Sofia', cursive;
 }
 #footnotes {
   left: 2%;

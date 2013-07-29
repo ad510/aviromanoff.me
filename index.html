@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Code, prose, and poetry from Avi Romanoff">
+    <meta name="viewport" content="initial-scale = 0.6">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style/layout.css">
     <title>Avi Romanoff
@@ -27,5 +28,10 @@
     </div><a id="code" href="/code" class="outlet">Code()<sup>1</sup></a><a id="prose" href="/prose" class="outlet">Prose<sup>2</sup></a><a id="poetry" href="/poetry" class="outlet">Poetry<sup>3</sup></a>
     <div id="footnotes" class="bottom"><sup>1 </sup>Past &amp; current projects<br><sup>2 </sup>Blog and digital rhetoric<br><sup>3 </sup>Slam poetry and other pieces</div><a href="resume.pdf" class="resume">R&eacute;sum&eacute;</a>
     <div class="copyright">&copy; 1996-2013</div>
+    <script>
+      var instruction = "Click"
+      if ('ontouchstart' in window) instruction = "Tap"
+      document.getElementById('instructions').innerHTML = instruction + " on a project to learn more"
+    </script>
   </body>
 </html>

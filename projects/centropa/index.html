@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Code, prose, and poetry from Avi Romanoff">
+    <meta name="viewport" content="initial-scale = 0.6">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style/layout.css">
     <title>Centropa</title>
@@ -36,5 +37,10 @@
   <div class="title">How</div>
   <p>This project was comprised of two separate components which communicated through a RESTful HTTP API server backend. The first was a fullscreen GTK+ app which captured sign in data (when typed in via my laptop running the program). The second was a fullscreen web page projected on a wall which displayed a map of the world and dropped pins whenever a new sign in was pushed to it by the backend server.</p>
 </div></div>
+    <script>
+      var instruction = "Click"
+      if ('ontouchstart' in window) instruction = "Tap"
+      document.getElementById('instructions').innerHTML = instruction + " on a project to learn more"
+    </script>
   </body>
 </html>

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Code, prose, and poetry from Avi Romanoff">
+    <meta name="viewport" content="initial-scale = 0.6">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style/layout.css">
     <title>Code</title>
@@ -24,7 +25,7 @@
     </div>
     <div id="content">
       <div id="blerb">
-        <p>I have been coding since middle school and tinkering since the womb.<br>I build things that are <strong>fast</strong>, <strong>beautful</strong>, and <strong>intuitive</strong>.</p>
+        <p>I have been coding since middle school and tinkering since the womb.<br>I build things that are <strong>fast</strong>, <strong>beautful</strong>, and <strong>intuitive</strong>.</p><small id="instructions"></small>
       </div><a href="/projects/keeba/">
         <div class="card">
           <div class="title">Keeba</div>
@@ -79,5 +80,10 @@
         <div class="source">&mdash; Henry David Thoreau</div>
       </div>
     </div>
+    <script>
+      var instruction = "Click"
+      if ('ontouchstart' in window) instruction = "Tap"
+      document.getElementById('instructions').innerHTML = instruction + " on a project to learn more"
+    </script>
   </body>
 </html>

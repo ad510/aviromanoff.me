@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Code, prose, and poetry from Avi Romanoff">
+    <meta name="viewport" content="initial-scale = 0.6">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style/layout.css">
     <title>Poetry</title>
@@ -24,7 +25,7 @@
     </div>
     <div id="content">
       <div id="blerb">
-        <p>Written, spoken or sung, I find immense beauty in verbal expression.<br>Below are some pieces of my own.</p>
+        <p>Written, spoken or sung, I find immense beauty in verbal expression.<br>Below are some pieces of my own.</p><small id="instructions"></small>
       </div><a href="/poems/she/">
         <div class="card">
           <div class="title">She</div>
@@ -85,5 +86,10 @@
         <div class="source">&mdash; Robert Lee Frost</div>
       </div>
     </div>
+    <script>
+      var instruction = "Click"
+      if ('ontouchstart' in window) instruction = "Tap"
+      document.getElementById('instructions').innerHTML = instruction + " on a project to learn more"
+    </script>
   </body>
 </html>

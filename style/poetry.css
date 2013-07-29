@@ -23,6 +23,12 @@ strong {
   text-align: center;
   font-weight: 300;
 }
+#blerb p {
+  margin-bottom: 10px;
+}
+#blerb small {
+  font-style: italic;
+}
 .card {
   border: 2px solid #eee;
   border-radius: 10px;
