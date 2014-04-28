@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/aroman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://aviromanoff.me
+  * I am aroman (https://keybase.io/aroman) on keybase.
+  * I have a public key with fingerprint 9368 53CF 4D3C B5E2 9D43  4504 0BD2 1DFA C8C0 A40F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "936853cf4d3cb5e29d4345040bd21dfac8c0a40f",
+            "host": "keybase.io",
+            "key_id": "0bd21dfac8c0a40f",
+            "uid": "215e3e9264e0105f1dea6727f533e400",
+            "username": "aroman"
+        },
+        "service": {
+            "hostname": "aviromanoff.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396126173,
+    "expire_in": 157680000,
+    "prev": "1326c60aa13e478320e37398fb232645731dafb95d8c3105ce68a05d9a38e9eb",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yMHwAnicbZFvSBt3HMaTNUqMyyYUFYqs9tc2lBrk7n73H4tYkdES6AttkVAa78/v
+kqP1Ll7OxJC6ajbT7YWO7YVdt9UNtrFWoQOlHVgs1gU3cFSQWovFFSutHUVqYXa0
+OPR3ob7bvTnueT7f57kv37x/l8vnHvgxVXV/7tCv7pnJl52uZo5cygDZVNNAzICz
+qPDSdCOKrLilGzYQgQBZnoGKRqtQkRlECSoNaYagCVmlSFWTFF4hJJrQQBDEzIQz
+gWNkKYFqdRNr+COiq1j9H76zYFAkgyASKJZGBEkwGqkiieUoTmMgRDRBOGACWYbU
+jjAtWWa7ZIDuIMBaUlewlikU7/hJvUCYmlaLhSCIW6ZtKuY57MVsOy46o3Y67rAp
+JEfepkRk3VDx3nggiayEbhpAJDGp2LoTS0KBJSmW5GAQoK64bqGI7hAMx/IEfpwa
+lMSRJKRYhSUkicT/zvGQIhDkoMBrMoUdmuEgqUqaLDAqr0C8rYJYXiIYVZAgjwQk
+4/4E6jBMIOImW4riyIQeNSS700Kge2rytMfl9rmKi95xLufylZTt3POfkNc1L4rj
+NzbSrY/D/PB3XT+B8VesW9q39vHoL/Wt+sHNfPWDhmDdYdE7eHfVv2z3tK2WxWou
+ru1tj/pyE8m/XxdtXr76nydZ+aJ36YeF3wYrhoTQwgee2/7sF1zA89eXW/G5/kzr
+t6cWv//Qn2oKN5R/4lYPrCdGZvyjuYFHzOxK9lbj8fPvVafXhio3ws0odG828E1+
+fStf8qzF+/mit3hsy113LPD83Ym28ut7ssmVr/qyn137vffryZb9paGR3HTp6Imf
+AyefZHs2ibGqSwM1TTc/nTKnHzKNf9afWf53WOy68BE3/6ZirD+Sqz0a26iafx/s
+Hv4jNXvn6dyVjr5w0ZFtXysSKA==
+=623r
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aroman
+
+==================================================================
+
