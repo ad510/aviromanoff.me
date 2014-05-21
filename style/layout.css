@@ -19,6 +19,9 @@ a {
 a:visited {
   color: #fff;
 }
+h1 {
+  font-weight:normal;
+}
 #back {
   position: absolute;
   top: 2.5%;
