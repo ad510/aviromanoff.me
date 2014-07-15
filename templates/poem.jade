@@ -1,0 +1,24 @@
+extends code
+
+block title
+  | #{page.title}
+
+block append head
+  link(rel="stylesheet", href="/style/poem.css")
+
+block content
+  a#back(href="/poetry.html")
+  #hero
+    .major=page.title
+    .minor=page.metadata.subtitle
+    .micro=page.metadata.epoch
+  .external-icons
+    if page.metadata.video
+      a(href=page.metadata.video, target="_blank")
+        img(src="/video-white.png")
+    if page.metadata.sound
+      a(href=page.metadata.sound, target="_blank")
+        img(src="/sound-white.png")
+  #content
+    .card
+      p!=page.html

@@ -1,0 +1,21 @@
+{
+  "output": "./",
+  "locals": {
+    "title": "Avi Romanoff",
+    "url": "http://localhost:8080",
+    "owner": "Avi Romanoff",
+    "description": "This too shall crash!"
+  },
+  "plugins": [
+    "wintersmith-less"
+  ],
+  "ignore": [
+    ".DS_Store"
+  ],
+  "require": {
+    "_": "underscore"
+  },
+  "jade": {
+    "pretty": true
+  }
+}

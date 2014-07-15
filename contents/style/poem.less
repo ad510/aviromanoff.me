@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+strong {
+  font-weight: 600;
+}
+
+#hero {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+
+  .major {
+    font-size: 40px;
+  }
+
+  .minor {
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .micro {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+
+.external-icons {
+  position: absolute;
+  display: block;
+  right: 2.5%;
+  top: 2.5%;
+
+  img {
+    height: 40px;
+    margin-left: 15px;
+
+    &:hover {
+      -webkit-filter: invert(40%);
+      -moz-filter: invert(40%);
+      -ms-filter: invert(40%);
+      filter: invert(40%);
+    }
+  }
+}
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+
+  &:hover {
+    cursor: default;
+    box-shadow: 0 0 25px #222;
+  }
+}

@@ -1,0 +1,55 @@
+extends layout
+
+block title
+  | Code
+
+block append head
+  link(href='//fonts.googleapis.com/css?family=Asap|Open+Sans:400,600,700', rel='stylesheet', type='text/css')
+  link(rel="stylesheet", href="/style/code.css")
+
+block content
+  a#back(href="/")
+  #hero
+    h1 Code
+  #content
+    #blerb
+      p
+        | I have been coding since middle school and tinkering since the womb.
+        br
+        | I strive to build things that are 
+        strong fast
+        | , 
+        strong beautiful
+        | , and 
+        strong intuitive
+        | .
+      small#instructions
+
+    - var projects = _.chain(contents.projects._.directories).map(function(item){ return item.index }).sortBy(function(item) { return -item.date }).value();
+
+    each project in projects
+      a(href=project.url)
+        .card
+          .title=project.title
+          .epoch=project.metadata.epoch
+          .subtitle=project.metadata.subtitle
+          .tech=project.metadata.tech
+          if project.metadata.external
+            a(href=project.metadata.external, target="_blank")
+              img.external-icon(src="earth.png")
+          if project.metadata.video
+            a(href=project.metadata.video, target="_blank")
+              img.external-icon(src="video.png")
+          if project.metadata.github
+            a(href=project.metadata.github, target="_blank")
+              img.external-icon(src="github.png")
+          if project.metadata.launchpad
+            a(href=project.metadata.launchpad, target="_blank")
+              img.external-icon(src="launchpad.png")
+
+    .quote
+      .body
+        | &ldquo;There are a thousand 
+        strong(style="font-weight: 600") hacking
+        |  at the branches of evil to one who is striking at the root.&rdquo;
+      .source &mdash; Henry David Thoreau

@@ -1,0 +1,41 @@
+extends layout
+
+block title
+  | Poetry
+
+block append head
+  link(href='http://fonts.googleapis.com/css?family=Asap|Open+Sans:400,600,700', rel='stylesheet', type='text/css')
+  link(rel="stylesheet", href="/style/poetry.css")
+
+block content
+  a#back(href="/")
+  #hero
+    h1 Poetry
+  #content
+    #blerb
+      p
+        | Written, spoken or sung, I find immense beauty in verbal expression.
+        br
+        | Below are some pieces of my own.
+      small#instructions
+
+    - var poems = _.chain(contents.poems._.directories).map(function(item){ return item.index }).sortBy(function(item) { return -item.date }).value();
+
+    each poem in poems
+      a(href=poem.url)
+        .card
+          .title!=poem.title
+          .epoch!=poem.metadata.epoch
+          .subtitle!=poem.metadata.subtitle
+          .tagline!=poem.metadata.tagline
+          if poem.metadata.sound
+            a(href=poem.metadata.sound, target="_blank")
+              img.external-icon(src="sound.png")
+          if poem.metadata.video
+            a(href=poem.metadata.video, target="_blank")
+              img.external-icon(src="video.png")
+
+    .quote
+      .body
+        | &ldquo;Poetry is what gets lost in translation.&rdquo;
+      .source &mdash; Robert Lee Frost
