@@ -4,10 +4,10 @@ block title
   | #{page.title}
 
 block append head
-  link(rel="stylesheet", href="/style/project.css")
+  link(rel="stylesheet", href="style/project.css")
 
 block content
-  a#back(href="/code.html")
+  a#back(href="code.html")
   #hero
     .major=page.title
     .minor=page.metadata.subtitle
@@ -15,14 +15,14 @@ block content
   .external-icons
     if page.metadata.external
       a(href=page.metadata.external, target="_blank")
-        img(src="/earth-white.png")
+        img(src="img/earth-white.png")
     if page.metadata.video
       a(href=page.metadata.video, target="_blank")
-        img(src="/video-white.png")
+        img(src="img/video-white.png")
     if page.metadata.github
       a(href=page.metadata.github, target="_blank")
-        img(src="/github-white.png")
+        img(src="img/github-white.png")
     if page.metadata.launchpad
       a(href=page.metadata.launchpad, target="_blank")
-        img(src="/launchpad-white.png")
+        img(src="img/launchpad-white.png")
   #content!=page.html

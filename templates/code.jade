@@ -5,7 +5,7 @@ block title
 
 block append head
   link(href='//fonts.googleapis.com/css?family=Asap|Open+Sans:400,600,700', rel='stylesheet', type='text/css')
-  link(rel="stylesheet", href="/style/code.css")
+  link(rel="stylesheet", href="style/code.css")
 
 block content
   a#back(href="/")
@@ -36,16 +36,16 @@ block content
           .tech=project.metadata.tech
           if project.metadata.external
             a(href=project.metadata.external, target="_blank")
-              img.external-icon(src="earth.png")
+              img.external-icon(src="img/earth.png")
           if project.metadata.video
             a(href=project.metadata.video, target="_blank")
-              img.external-icon(src="video.png")
+              img.external-icon(src="img/video.png")
           if project.metadata.github
             a(href=project.metadata.github, target="_blank")
-              img.external-icon(src="github.png")
+              img.external-icon(src="img/github.png")
           if project.metadata.launchpad
             a(href=project.metadata.launchpad, target="_blank")
-              img.external-icon(src="launchpad.png")
+              img.external-icon(src="img/launchpad.png")
 
     .quote
       .body
