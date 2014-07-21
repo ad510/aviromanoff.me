@@ -4,10 +4,10 @@ block title
   | #{page.title}
 
 block append head
-  link(rel="stylesheet", href="/style/poem.css")
+  link(rel="stylesheet", href="style/poem.css")
 
 block content
-  a#back(href="/poetry.html")
+  a#back(href="poetry.html")
   #hero
     .major=page.title
     .minor=page.metadata.subtitle
@@ -15,10 +15,10 @@ block content
   .external-icons
     if page.metadata.video
       a(href=page.metadata.video, target="_blank")
-        img(src="/img/video-white.png")
+        img(src="img/video-white.png")
     if page.metadata.sound
       a(href=page.metadata.sound, target="_blank")
-        img(src="/img/sound-white.png")
+        img(src="img/sound-white.png")
   #content
     .card
       p!=page.html

@@ -5,7 +5,7 @@ block title
 
 block append head
   link(href='http://fonts.googleapis.com/css?family=Asap|Open+Sans:400,600,700', rel='stylesheet', type='text/css')
-  link(rel="stylesheet", href="/style/poetry.css")
+  link(rel="stylesheet", href="style/poetry.css")
 
 block content
   a#back(href="/")
@@ -30,10 +30,10 @@ block content
           .tagline!=poem.metadata.tagline
           if poem.metadata.sound
             a(href=poem.metadata.sound, target="_blank")
-              img.external-icon(src="/img/sound.png")
+              img.external-icon(src="img/sound.png")
           if poem.metadata.video
             a(href=poem.metadata.video, target="_blank")
-              img.external-icon(src="/img/video.png")
+              img.external-icon(src="img/video.png")
 
     .quote
       .body
