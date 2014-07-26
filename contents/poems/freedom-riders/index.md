@@ -30,7 +30,7 @@ The fallacy is that people think that writing about something changes it<br>
 It doesn’t. The only thing it does is make it easier to reprint.<br>
 Because when fist come to glove,<br>
 A dumptruck full of poems won’t cloth the homeless<br>
-Any more that dreaming of syringes helps cure HIV<br>
+Any more than dreaming of syringes helps cure HIV<br>
 <br>
 The problem is that lately, I’ve been trapped under the weight of the impression<br>
 That the only problem we have is that we’ve been using the wrong tools for the job<br>
