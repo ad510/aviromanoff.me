@@ -9,7 +9,10 @@ block append head
 block content
   a#back(href="/code.html")
   #hero
-    .major=page.title
+    if page.metadata.name
+      .major=page.metadata.name
+    else
+      .major=page.title
     .minor=page.metadata.subtitle
     .micro=page.metadata.epoch
   .external-icons

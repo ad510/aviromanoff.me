@@ -1,4 +1,5 @@
 ---
+name: GrubHero
 title: GrubHero (PennApps Fall 2013)
 subtitle: Organizing group meal orders has never been this easy.
 epoch: Fall 2013

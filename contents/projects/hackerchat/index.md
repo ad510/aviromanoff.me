@@ -1,4 +1,5 @@
 ---
+name: HackerChat
 title: HackerChat (1st Place @ PilotPhilly 2013)
 subtitle: Hackable collaboration for hackers.
 epoch: Fall 2013

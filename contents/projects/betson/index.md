@@ -1,5 +1,6 @@
 ---
-title: BetsOn (PennApps Spring 2014)
+name: BetsOn
+title: BetsOn ("It Just Works" Prize @ PennApps Spring 2014)
 subtitle: Raise the stakes on your bets with friends. Using Pebble.
 epoch: Spring 2014
 date: 2014-02-16
