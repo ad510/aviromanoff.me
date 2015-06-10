@@ -66,7 +66,29 @@ strong {
   margin-bottom: -35px;
 }
 
+.screenshot-card {
+  margin-left: 0%;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
 .screenshot-undersized {
   text-align: center;
   margin-top: 25px;
+}
+
+// From https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
