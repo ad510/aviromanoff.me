@@ -1,6 +1,6 @@
 ---
-name: Fugi
-title: Fugi (Grand Prize & Best UX @ PennApps X)
+name: Fuji
+title: Fuji (Grand Prize & Best UX @ PennApps X)
 subtitle: XCode & iPhone Simulator in the browser
 epoch: Fall 2014
 date: 2018-09-16
@@ -27,16 +27,16 @@ template: project.jade
 
 <br>
 <div class="screenshots">
-  <a href="fugi-screenshot-1.png">
-    <img src="fugi-screenshot-1.png" class="screenshot">
+  <a href="fuji-screenshot-1.png">
+    <img src="fuji-screenshot-1.png" class="screenshot">
   </a>
-  <a href="fugi-screenshot-2.png">
-    <img src="fugi-screenshot-2.png" class="screenshot">
+  <a href="fuji-screenshot-2.png">
+    <img src="fuji-screenshot-2.png" class="screenshot">
   </a>
-  <a href="fugi-screenshot-3.png">
-    <img src="fugi-screenshot-3.png" class="screenshot">
+  <a href="fuji-screenshot-3.png">
+    <img src="fuji-screenshot-3.png" class="screenshot">
   </a>
-  <a href="fugi-screenshot-4.jpg">
-    <img src="fugi-screenshot-4.jpg" class="screenshot">
+  <a href="fuji-screenshot-4.jpg">
+    <img src="fuji-screenshot-4.jpg" class="screenshot">
   </a>
 </div>
